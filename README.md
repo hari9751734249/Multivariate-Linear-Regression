@@ -20,7 +20,7 @@ Step 5: Provide a new set of input values for Weight and Volume, use the trained
 
 
 ## Program:
-
+```
 import pandas as pd
 
 from sklearn import linear_model
@@ -45,10 +45,11 @@ predictedCO2 = regr.predict(input_data)
 
 print('Predicted CO2 for the corresponding weight and volume:', predictedCO2)
 
-
+```
 ## Output:
 
 <img width="1363" height="388" alt="image" src="https://github.com/user-attachments/assets/11fdd336-1d42-48e7-9896-001416471bfe" />
+
 
 
 ## Result
